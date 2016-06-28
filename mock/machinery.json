@@ -1,0 +1,79 @@
+{
+  "res":true,
+  "errcode":-1,
+  "errmsg":"",
+  "data":[
+    {
+      "title1":"X63弯头（每个）",
+      "title2":"X63弯头（每个）",
+      "imgsrc":"/project/images/tu1.jpg",
+      "price":"￥ 13.00 元/个"
+    },
+    {
+      "title1":"X63直通（每个）",
+      "title2":"X63直通（每个）",
+      "imgsrc":"/project/images/tu2.jpg",
+      "price":"￥ 12.00 元/个"
+    },
+    {
+      "title1":"打孔器（每个）",
+      "title2":"打孔器（每个）",
+      "imgsrc":"/project/images/tu3.jpg",
+      "price":"￥ 7.00 元/个"
+    },
+    {
+      "title1":"X63三通（每个）",
+      "title2":"X63三通（每个）",
+      "imgsrc":"/project/images/tu4.jpg",
+      "price":"￥ 11.00 元/个"
+    },
+    {
+      "title1":"X63x1三通（每个）",
+      "title2":"X63x1三通（每个）",
+      "imgsrc":"/project/images/tu1.jpg",
+      "price":"￥ 13.00 元/个"
+    },
+    {
+      "title1":"X63球阀（每个）",
+      "title2":"X63球阀（每个）",
+      "imgsrc":"/project/images/tu2.jpg",
+      "price":"￥ 11.00 元/个"
+    },
+    {
+      "title1":"X63弯头（每个）",
+      "title2":"X63弯头（每个）",
+      "imgsrc":"/project/images/tu3.jpg",
+      "price":"￥ 12.00 元/个"
+    },
+    {
+      "title1":"X63直通（每个）",
+      "title2":"X63直通（每个）",
+      "imgsrc":"/project/images/tu4.jpg",
+      "price":"￥ 7.00 元/个"
+    },
+    {
+      "title1":"打孔器（每个）",
+      "title2":"打孔器（每个）",
+      "imgsrc":"/project/images/tu2.jpg",
+      "price":"￥ 11.00 元/个"
+    },
+    {
+      "title1":"X63三通（每个）",
+      "title2":"X63三通（每个）",
+      "imgsrc":"/project/images/tu3.jpg",
+      "price":"￥ 13.00 元/个"
+    },
+    {
+      "title1":"X63x1三通（每个）",
+      "title2":"X63x1三通（每个）",
+      "imgsrc":"/project/images/tu4.jpg",
+      "price":"￥ 11.00 元/个"
+    },
+    {
+      "title1":"X63弯头（每个）",
+      "title2":"X63弯头（每个）",
+      "imgsrc":"/project/images/tu3.jpg",
+      "price":"￥ 12.00 元/个"
+    }
+  ]
+}
