@@ -61,6 +61,9 @@
            <li>10%</li>
          </ul>
       </div>
+      <div class="bottom">
+        亲！！到底了。。。
+      </div>
     </div>
     <div class="yo-loading yo-loading-b" ms-visible="isShowLoading">
       <div class="inner"><i class="yo-ico"></i><span>加载中...</span></div>

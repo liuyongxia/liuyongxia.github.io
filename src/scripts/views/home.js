@@ -111,7 +111,7 @@ SPA.defineView("home",{
           var fixScroll = this.widgets.homeHotScroll;
           fixScroll.on('scroll', function () {
               //console.log(this.y);
-            if(this.y <= -300) {
+            if(this.y <= -310) {
               if($('.box').siblings().length > 2){
                 ;
               } else {

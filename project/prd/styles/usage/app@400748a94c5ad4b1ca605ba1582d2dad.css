@@ -140,7 +140,7 @@ spa-view{position:absolute;z-index:0;top:0;left:0;bottom:0;width:100%;background
 .m-index .l-container .m-home .nav-content .nav li{-webkit-box-flex:1;-webkit-flex:1;flex:1;width:.1px;height:100%;line-height:.38rem;text-align:center;border-bottom:2px solid #fff;border-right:1px solid #eee;color:#6b6f72;font-weight:bold;font-size:.16rem}
 .m-index .l-container .m-home .nav-content .nav li:nth-last-child(1){border-right:0}
 .m-index .l-container .m-home .nav-content .nav li.active{border-bottom:2px solid #0dc441}
-.m-index .l-container .m-home .nav-content.fixed{position:fixed;left:0;top:.34rem}
+.m-index .l-container .m-home .nav-content.fixed{position:fixed;left:0;top:.32rem}
 .m-index .l-container .m-home section{height:100%;overflow:hidden}
 .m-index .l-container .m-home section #banner-swiper{height:1.22rem}
 .m-index .l-container .m-home section #banner-swiper .swiper-wrapper{height:100%}
@@ -242,6 +242,11 @@ to{transform:rotatez(360deg)}
 .m-detail section div.detail-info h3{margin:2% 0;font-size:.14rem;color:#777}
 .m-detail section div.detail-info h4{font-size:.1rem;color:#c1c1c1}
 .m-detail section div.detail-info p{margin:2% 0;font-size:.14rem;color:#ef995f}
+.m-detail section div.norms{height:.4rem;font-size:.14rem;line-height:.4rem}
+.m-detail section div.norms span:nth-child(1){margin:0 66% 0 5%;height:100%}
+.m-detail section div.norms i{font-size:.2rem;margin:0 1%}
+.m-detail section div.integral{height:.4rem;font-size:.14rem;line-height:.4rem;padding-left:4%}
+.m-detail section div.integral span{color:#ef995f;margin-left:1%}
 .m-detail section div.sales{height:.4rem;font-size:.14rem;line-height:.4rem;padding-left:4%}
 .m-detail section div.sales span{color:#ef995f;margin-left:1%}
 .m-detail section div.number{padding-left:4%;height:.4rem;font-size:.14rem;line-height:.4rem}
@@ -257,6 +262,7 @@ to{transform:rotatez(360deg)}
 .m-detail section div.norms-parameter{display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-webkit-flex-direction:row;flex-direction:row;padding-left:4%;font-size:.1rem}
 .m-detail section div.norms-parameter ul{-webkit-box-flex:1;-webkit-flex:1;flex:1;width:.1px}
 .m-detail section div.norms-parameter ul li{margin-top:.05rem}
+.m-detail section div .bottom{height:.4rem;color:red;line-height:.4rem;font-size:.16rem;text-align:center}
 .m-detail section .yo-loading-b>.inner{color:#00afc7}
 .m-detail section .yo-loading-b>.inner>.yo-ico::before{color:#00afc7}
 .m-detail footer{width:100%;height:.44rem}
