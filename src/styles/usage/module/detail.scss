@@ -1,0 +1,179 @@
+@import "../../lib/element/yo-loading";
+
+.m-detail{
+  @include flexbox();
+  @include flex-direction(column);
+  height: 100%;
+  width: 100%;
+  > * {
+    width: 100%;
+  }
+  header{
+    background:#45b97c;
+    height: .44rem;
+    ul {
+      @include flexbox();
+      height: 100%;
+      li {
+        height: 100%;
+        @include flexbox();//定义为盒
+        @include justify-content(center);//水平方向
+        @include align-items(center);//垂直方向
+        color: #fff;
+        &:nth-child(1) {
+          width: .44rem;
+          color: #fff;
+          font-size:.3rem;
+        }
+      }
+    }
+  }
+  section{
+    @include flex(1);
+    width: 100%;
+    background: #fff;
+    div{
+       width: 100%;
+       border-bottom: .01rem solid #eee;
+       &.detail-img{
+         img{
+           width: 80%;
+           margin-left: 10%;
+           padding: 5% 0;
+         }
+       }
+       &.detail-info{
+         padding-left: 5%;
+         h3,h4{
+           font-weight: normal;
+         }
+         h3{
+           margin: 2% 0;
+           font-size: .14rem;
+           color:#777777;
+         }
+         h4{
+           font-size: .1rem;
+           color:#c1c1c1;
+         }
+         p{
+           margin: 2% 0;
+           font-size: .14rem;
+           color:#ef995f;
+         }
+       }
+       &.sales{
+        height: .4rem;
+        font-size: .14rem;
+        line-height: .4rem;
+        padding-left: 4%;
+        span{
+          color:#ef995f;
+          margin-left: 1%;
+        }
+       }
+       &.number{
+        padding-left: 4%;
+        height: .4rem;
+        font-size: .14rem;
+        line-height: .4rem;
+        span{
+          width: .2rem;
+          height: .2rem;
+          background: #eee;
+          padding: .05rem .06rem;
+          &:nth-child(1){
+            margin-left: 3%;
+          }
+        }
+        input{
+          height: .2rem;
+          width: .5rem;
+          display: inline-block;
+          text-align: center;
+          line-height:.2rem;
+        }
+       }
+      &.range{
+        height: .4rem;
+        font-size: .14rem;
+        line-height: .4rem;
+        span:nth-child(1){
+          margin:0 26% 0 5%;
+          height: 100%;
+        }
+        i{
+          font-size: .2rem;
+          margin: 0 1%;
+        }
+      }
+      &.lowest{
+        height: .4rem;
+        font-size: .14rem;
+        line-height: .4rem;
+        padding-left: 4%;
+        span{
+          color:#ef995f;
+          margin-left: 1%;
+        }
+      }
+      &.parameter{
+        height: .4rem;
+        font-size: .14rem;
+        line-height: .4rem;
+        text-align: center;
+        color: #1dc670;
+      }
+      &.norms-parameter{
+        @include flexbox();
+        @include flex-direction();
+        padding-left: 4%;
+        font-size: .1rem;
+        ul{
+          @include flex(1);
+          li{
+            margin-top: .05rem;
+          }
+        }
+      }
+    }
+    @include yo-loading(
+      $name: b,
+      $ico-color: #00afc7,
+      $color: #00afc7
+    );
+  }
+
+ footer{
+   width: 100%;
+   height: .44rem;
+   ul{
+     background: Rgba(82,82,82,0.5);
+     height: 100%;
+     width: 100%;
+     @include flexbox();
+     @include flex-direction();
+     li{
+       width: 100%;
+       height: 100%;
+       @include flexbox();
+       @include align-items(center);
+       @include justify-content(center);
+       span{
+         width: 100%;
+         height: 100%;
+         display: block;
+         background: red;
+         line-height: .44rem;
+         text-align: center;
+       }
+       i{
+         color: #fff;
+         font-size: .3rem;
+         height: .44rem;
+         width: .44rem;
+       }
+     }
+   }
+ }
+}

@@ -1,0 +1,145 @@
+<div class="m-home">
+  <header>
+    <ul>
+      <li><i class="yo-ico">&#xe621;</i><b>全部</b></li>
+      <li>
+        <div class="txt-box">
+          <input type="text" name="txt" id="txt" placeholder="请输入要找的农资产品" />
+          <i class="yo-ico">&#xe600;</i>
+        </div>
+      </li>
+      <li ><i class="yo-ico">&#xe60f;</i><b>消息</b></li>
+   </ul>
+  </header>
+
+
+  <section spa-widget="scroll" data-scroll-id="homeHotScroll" class="box">
+    <div>
+      <div class="head">
+          <img src="/project/images/arrow.png"/>
+          <span>下拉刷新...</span>
+      </div>
+      <!-- banner图 -->
+      <div class="swiper-container" id="banner-swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide">
+            <img src="/project/images/banner1.jpg"/>
+          </div>
+          <div class="swiper-slide slide">
+            <img src="/project/images/banner2.jpg"/>
+          </div>
+          <div class="swiper-slide slide">
+            <img src="/project/images/banner3.jpg"/>
+          </div>
+          <div class="swiper-slide slide">
+            <img src="/project/images/banner4.jpg"/>
+          </div>
+          <div class="swiper-slide slide">
+            <img src="/project/images/banner5.jpg"/>
+          </div>
+        </div>
+        <!-- 如果需要分页器 -->
+        <div class="swiper-pagination"></div>
+      </div>
+      <!-- 导航 -->
+      <nav>
+        <ul>
+          <li action-type="goto.kind"><img src="/project/images/nav1.jpg" alt="" /><b>玉米</b></li>
+          <li action-type="goto.kind"><img src="/project/images/nav2.jpg" alt="" /><b>大豆</b></li>
+          <li action-type="goto.kind"><img src="/project/images/nav3.jpg" alt="" /><b>小麦</b></li>
+          <li action-type="goto.kind"><img src="/project/images/nav4.jpg" alt="" /><b>水稻</b></li>
+          <li action-type="goto.kind"><img src="/project/images/nav5.jpg" alt="" /><b>土豆</b></li>
+        </ul>
+        <ul>
+          <li action-type="goto.kind"><img src="/project/images/nav6.jpg" alt="" /><b>葵花</b></li>
+          <li action-type="goto.kind"><img src="/project/images/nav7.jpg" alt="" /><b>花生</b></li>
+          <li action-type="goto.kind"><img src="/project/images/nav8.jpg" alt="" /><b>高粱</b></li>
+          <li action-type="goto.kind"><img src="/project/images/nav9.jpg" alt="" /><b>绿豆</b></li>
+          <li action-type="goto.kind"><img src="/project/images/nav10.jpg" alt="" /><b>全部</b></li>
+        </ul>
+      </nav>
+      <!-- 子导航 -->
+      <div class="nav-content" >
+        <ul class="nav">
+          <li class="active" action-type = "kind.tabs">肥料</li>
+          <li action-type = "kind.tabs">种子</li>
+          <li action-type = "kind.tabs">农药</li>
+          <li action-type = "kind.tabs">农机</li>
+        </ul>
+      </div>
+       <!-- 内容区 -->
+      <div class="swiper-container" id="kind-swiper">
+          <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="content">
+                  <ul class="content-list" ms-repeat-value="livelist">
+                    <li action-type="goto.detail" ms-attr-data-id="value[0].id">
+                      <h3 ms-text="value[0].title1"></h3>
+                      <h5 ms-text="value[0].title2"></h5>
+                      <img ms-src="value[0].imgsrc" alt="" />
+                    </li>
+                    <li ms-class-hide="!value[1]" action-type="goto.detail" ms-attr-data-id="value[1].id">
+                      <h3 ms-text="value[1].title1"></h3>
+                      <h5 ms-text="value[1].title2"></h5>
+                      <img ms-src="value[1].imgsrc" alt="" />
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="content">
+                  <ul class="content-list" ms-repeat-value="machinery">
+                    <li action-type="goto.detail" ms-attr-data-id="value[0].id">
+                      <h3 ms-text="value[0].title1"></h3>
+                      <h5 ms-text="value[0].title2"></h5>
+                      <img ms-src="value[0].imgsrc" alt="" />
+                    </li>
+                    <li ms-class-hide="!value[1]" action-type="goto.detail" ms-attr-data-id="value[1].id">
+                      <h3 ms-text="value[1].title1"></h3>
+                      <h5 ms-text="value[1].title2"></h5>
+                      <img ms-src="value[1].imgsrc" alt="" />
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="content">
+                  <ul class="content-list" ms-repeat-value="livelist">
+                    <li action-type="goto.detail" ms-attr-data-id="value[0].id">
+                      <h3 ms-text="value[0].title1"></h3>
+                      <h5 ms-text="value[0].title2"></h5>
+                      <img ms-src="value[0].imgsrc" alt="" />
+                    </li >
+                    <li ms-class-hide="!value[1]" action-type="goto.detail" ms-attr-data-id="value[1].id">
+                      <h3 ms-text="value[1].title1"></h3>
+                      <h5 ms-text="value[1].title2"></h5>
+                      <img ms-src="value[1].imgsrc" alt="" />
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="content">
+                  <ul class="content-list" ms-repeat-value="machinery">
+                    <li action-type="goto.detail" ms-attr-data-id="value[0].id">
+                      <h3 ms-text="value[0].title1"></h3>
+                      <h5 ms-text="value[0].title2"></h5>
+                      <img ms-src="value[0].imgsrc" alt="" />
+                    </li>
+                    <li ms-class-hide="!value[1]" action-type="goto.detail" ms-attr-data-id="value[1].id">
+                      <h3 ms-text="value[1].title1"></h3>
+                      <h5 ms-text="value[1].title2"></h5>
+                      <img ms-src="value[1].imgsrc" alt="" />
+                    </li>
+                  </ul>
+                </div>
+              </div>
+          </div>
+      </div>
+      <div class="foot">
+          <img src="/project/images/arrow.png"/>
+          <span>上拉加载更多...</span>
+      </div>
+    </div>
+  </section>
+</div>

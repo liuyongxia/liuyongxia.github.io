@@ -1,0 +1,100 @@
+<div class="m-kind">
+  <header>
+    <ul>
+      <li action-type="back.tab"><i class="yo-ico">&#xe60c;</i></li>
+      <li>
+        <div class="txt-box">
+          <input type="text" name="txt" id="txt" placeholder="请输入要找的农资产品" />
+          <i class="yo-ico">&#xe600;</i>
+        </div>
+      </li>
+   </ul>
+  </header>
+  <nav>
+    <ul class="kind">
+      <li class="active" action-type = "kind.tabs"><i class="yo-ico">&#xe616;</i>肥料</li>
+      <li action-type = "kind.tabs"><i class="yo-ico">&#xe641;</i>种子</li>
+      <li action-type = "kind.tabs"><i class="yo-ico">&#xe7fd;</i>农药</li>
+      <li action-type = "kind.tabs"><i class="yo-ico">&#xe61a;</i>农机</li>
+    </ul>
+  </nav>
+
+  <section>
+    <aside spa-widget = "scroll">
+      <ul>
+        <li action-type = "vertical.tabs" class="active">玉米</li>
+        <li action-type = "vertical.tabs">大豆</li>
+        <li action-type = "vertical.tabs">小麦</li>
+        <li action-type = "vertical.tabs">水稻</li>
+        <li action-type = "vertical.tabs">土豆</li>
+        <li action-type = "vertical.tabs">葵花</li>
+        <li action-type = "vertical.tabs">花生</li>
+        <li action-type = "vertical.tabs">高粱</li>
+        <li action-type = "vertical.tabs">绿豆</li>
+        <li action-type = "vertical.tabs">其它</li>
+      </ul>
+    </aside>
+    <div spa-widget = "scroll"  class="kind-content">
+      <div class="swiper-container" id="ki-swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <ul ms-repeat-value="kind">
+                <li>
+                  <dl>
+                    <dt><img ms-src="value.imgsrc"/></dt>
+                    <dd>
+                      <h3 ms-text="value.title1"></h3>
+                      <h4 ms-text="value.title2"></h4>
+                      <p><span ms-text="value.price"></span><b>已售:3000</b></p>
+                    </dd>
+                  </dl>
+                </li>
+              </ul>
+            </div>
+            <div class="swiper-slide">
+              <ul ms-repeat-value="seed">
+                <li>
+                  <dl>
+                    <dt><img ms-src="value.imgsrc"/></dt>
+                    <dd>
+                      <h3 ms-text="value.title1"></h3>
+                      <h4 ms-text="value.title2"></h4>
+                      <p><span ms-text="value.price"></span><b>已售:3000</b></p>
+                    </dd>
+                  </dl>
+                </li>
+              </ul>
+            </div>
+            <div class="swiper-slide">
+              <ul ms-repeat-value="kind">
+                <li>
+                  <dl>
+                    <dt><img ms-src="value.imgsrc"/></dt>
+                    <dd>
+                      <h3 ms-text="value.title1"></h3>
+                      <h4 ms-text="value.title2"></h4>
+                      <p><span ms-text="value.price"></span><b>已售:3000</b></p>
+                    </dd>
+                  </dl>
+                </li>
+              </ul>
+            </div>
+            <div class="swiper-slide">
+              <ul ms-repeat-value="seed">
+                <li>
+                  <dl>
+                    <dt><img ms-src="value.imgsrc"/></dt>
+                    <dd>
+                      <h3 ms-text="value.title1"></h3>
+                      <h4 ms-text="value.title2"></h4>
+                      <p><span ms-text="value.price"></span><b>已售:3000</b></p>
+                    </dd>
+                  </dl>
+                </li>
+              </ul>
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>

@@ -1,0 +1,233 @@
+.m-index{
+    .l-container{
+        .m-home{
+            @include flexbox();
+            @include flex-direction(column);
+            height: 100%;
+            > * {
+                width: 100%;
+            }
+            header{
+                background:#45b97c;
+                height: .44rem;
+                ul {
+                    @include flexbox();
+                    height: 100%;
+                    li {
+                        height: 100%;
+                        &:not(:nth-child(2)) {
+                          @include flexbox();//定义为盒
+                          @include flex-direction(column);//定义盒内子元素的排列方向
+                          @include justify-content(center);//水平方向
+                          @include align-items(center);//垂直方向
+                          @include box-sizing(border-box);
+                          padding-top: .03rem;
+                          width: .44rem;
+                          color: #fff;
+                          i{
+                            font-size:.2rem;
+                            line-height:.2rem;
+                          }
+                          b{
+                            font-size:.12rem;
+                            font-weight:normal;
+                          }
+                        }
+                        &:nth-child(2) {
+                          width: 100%;
+                          @include flex(1);
+                          @include flexbox();   //定义为盒
+                          @include justify-content(center);
+                          @include align-items(center);
+                          .txt-box{
+                            height:.3rem;
+                            width: 100%;
+                            background:#fff;
+                            border-radius:.05rem;
+                            overflow: hidden;
+                            input{
+                              border:0;
+                              width: 80%;
+                              height:.3rem;
+                              line-height:.3rem;
+                              padding-left: .1rem;
+                              font-size: .12rem;
+                            }
+                            i{
+                              font-size:.2rem;
+                              color: #828282;
+                            }
+                          }
+                        }
+                    }
+                }
+            }
+            .nav-content{
+                background:#fff;
+                margin-top: .1rem;
+                margin-bottom: .02rem;
+                  .nav{
+                    height: .38rem;
+                    @include flexbox();
+                    @include flex-direction();
+                    li{
+                      @include flex(1);
+                      height: 100%;
+                      line-height: .38rem;
+                      text-align: center;
+                      border-bottom:2px solid #fff;
+                      border-right:1px solid #eee;
+                      color:#6b6f72 ;
+                      font-weight: bold;
+                      font-size: .16rem;
+                      &:nth-last-child(1){
+                        border-right:0;
+                      }
+                      &.active{
+                        border-bottom:2px solid #0dc441;
+                      }
+                    }
+                  }
+                  &.fixed {
+                    position: fixed;
+                    left: 0;
+                    top: .34rem;
+                  }
+            }
+            section{
+              height: 100%;
+              overflow: hidden;
+            #banner-swiper{
+                height: 1.22rem;
+                .swiper-wrapper{
+                  height: 100%;
+                  .swiper-slide{
+                    height: 100%;
+                    img{
+                      width:100%;
+                      height:100%;
+                    }
+                  }
+                }
+                .swiper-pagination{
+                  position:absolute;
+                  bottom: 0;
+                  text-align: right;
+                  width: 94%;
+                  .swiper-pagination-bullet{
+                  margin-right:2.2%;
+                  }
+                  .swiper-pagination-bullet-active{
+                    background: red;
+                  }
+                }
+            }
+            nav{
+                background:#fff;
+                ul{
+                  width: 100%;
+                  @include flexbox();
+                  @include flex-direction();
+                  li{
+                    height: 100%;
+                    @include flex(1);
+                    @include flexbox();
+                    @include flex-direction(column);
+                    @include align-items(center);
+                    @include justify-content(center);
+                    @include box-sizing(border-box);
+                    padding-top: .03rem;
+                    img{
+                      width: 70%;
+                    }
+                    b{
+                      font-weight: normal;
+                      color:#6b6f72 ;
+                    }
+                  }
+                }
+            }
+
+            .content{
+                  .content-list{
+                    height: 100%;
+                    @include flexbox();
+                    @include flex-direction();
+                    li{
+                      @include flex(1);
+                      @include align-items(center);
+                      @include justify-content(center);
+                      background:#fff;
+                      height: 100%;
+                      border-bottom: 1px solid #eee;
+                      border-right:1px solid #eee;
+                      padding-top: .05rem;
+                      &.hide{
+                        visibility: hidden;
+                      }
+                      h3{
+                          width: 90%;
+                          color: #737373;
+                          font-size: .14rem;
+                          font-weight: normal;
+                          height: .25rem;
+                          line-height: .25rem;
+                          padding-left:5%;
+                          @include ellipsis(true);
+                      }
+                      h5{
+                        width: 90%;
+                          color: #979797;
+                          font-size: .1rem;
+                          font-weight: normal;
+                          height: .2rem;
+                          line-height: .2rem;
+                          padding-left:5%;
+                          @include ellipsis(true);
+                      }
+                      img{
+                        width: 70%;
+                        padding:10% 10%;
+                      }
+                    }
+                }
+            }
+            // 上拉加载，下拉刷新
+            .head {
+                text-align: center;
+                height: .3rem;
+                line-height: .3rem;
+            }
+            .head img {
+                display: inline-block;
+                transform: rotate(180deg);
+                -webkit-transform: rotate(180deg);
+                transition: transform 150ms;
+                -webkit-transition: transform 150ms;
+                height: .15rem;
+                width: .15rem;
+            }
+            .up {
+                transform: rotate(360deg) !important;
+                -webkit-transform: rotate(360deg) !important;
+            }
+            .foot {
+                text-align: center;
+                height: .3rem;
+                line-height: .3rem;
+            }
+            .foot img {
+                display: inline-block;
+                transition: transform 150ms;
+                -webkit-transition: transform 150ms;
+                height: .15rem;
+                width: .15rem;
+            }
+            .down {
+                transform: rotate(180deg) !important;
+                -webkit-transform: rotate(180deg) !important;
+            }
+          }
+        }
+    }
+}

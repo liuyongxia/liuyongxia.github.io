@@ -1,0 +1,82 @@
+.my-register{
+  @include flexbox();
+  @include flex-direction(column);
+  height: 100%;
+  > * {
+    width: 100%;
+  }
+  header{
+    background:#45b97c;
+    height: .44rem;
+    ul {
+      @include flexbox();
+      height: 100%;
+      li {
+        height: 100%;
+        width: 100%;
+        @include flexbox();//定义为盒
+        @include justify-content(flex-start);//水平方向
+        @include align-items(center);//垂直方向
+        @include flex(1);
+        font-size: .3rem;
+        color: #fff;
+        &:nth-child(2){
+          margin-right: .1rem;
+          font-size: .14rem;
+        }
+      }
+    }
+  }
+  section{
+    height: 100%;
+    width: 100%;
+    background: #f0f0f0;
+    input{
+      border:0;
+      border: .01rem solid #ccc;
+      padding-left: .05rem;
+      font-size: .12rem;
+      height: .35rem;
+      margin-left:4%;
+      border-radius: .05rem;
+    }
+    label{
+      font-size: .14rem;
+      font-weight: bold;
+      width: 90%;
+      margin: 4%;
+    }
+    div{
+      height: .5rem;
+      width: 100%;
+      &.phone{
+        margin-top: 10%;
+        input{
+          width: 74%;
+        }
+      }
+      &.agreement{
+        height: .2rem;
+        label{
+          font-weight: normal;
+          height: .2rem;
+          a{
+            color: #000;
+          }
+          font-size: .12rem;
+          input{
+            height: .2rem;
+            width: .2rem;
+          }
+        }
+      }
+      &.btn{
+        margin-top: 20%;
+        input{
+          height: .4rem;
+          width: 92%;
+        }
+      }
+    }
+  }
+}

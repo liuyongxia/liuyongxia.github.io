@@ -1,0 +1,76 @@
+<div class="m-detail">
+  <header>
+    <ul>
+      <li action-type="back.tab"><i class="yo-ico">&#xe60c;</i></li>
+      <li>商品详情</li>
+   </ul>
+  </header>
+  <!--  -->
+
+  <section spa-widget = "scroll" >
+    <div ms-visible="!isShowLoading">
+      <div class="detail-img">
+        <img ms-src="imgsrc" alt="" />
+      </div>
+      <div class="detail-info">
+        <h3 ms-text="title1"></h3>
+        <h4 ms-text="title2"></h4>
+        <p ms-text="price"></p>
+        <p><i class="yo-ico">&#xe650;</i>数量满500，价格117元</p>
+      </div>
+      <div class="norms">
+        <span>规格</span><span>40kg</span><i class="yo-ico">&#xe611;</i>
+      </div>
+      <div class="sales">
+         <p>销售量<span>3000</span></p>
+      </div>
+      <div class="integral">
+         <p>积&nbsp;&nbsp;分<span>0</span></p>
+      </div>
+      <div class="number">
+         <p>数&nbsp;&nbsp;量<span>-</span><input type="number" value="3"/><span>+</span></p>
+      </div>
+      <div class="range">
+        <span>配送范围</span><span>吉林省白城市通榆县</span><i class="yo-ico">&#xe611;</i>
+      </div>
+      <div class="lowest">
+         <p>该商品最低起购量为<span>50</span></p>
+      </div>
+      <div class="parameter">
+         规格参数
+      </div>
+      <div class="norms-parameter">
+         <ul>
+           <li>商品品牌</li>
+           <li>商品名称</li>
+           <li>商品编码</li>
+           <li>商品类型</li>
+           <li>适用作物</li>
+           <li>含氮量</li>
+           <li>含鳞量</li>
+           <li>含钾量</li>
+         </ul>
+         <ul>
+           <li>史丹利</li>
+           <li>史丹利缓释肥28-12-10</li>
+           <li>2016032588</li>
+           <li>缓释肥</li>
+           <li>玉米,小麦,大豆,水稻,土豆,葵花,花生,高粱,绿豆,其他</li>
+           <li>28%</li>
+           <li>12%</li>
+           <li>10%</li>
+         </ul>
+      </div>
+    </div>
+    <div class="yo-loading yo-loading-b" ms-visible="isShowLoading">
+      <div class="inner"><i class="yo-ico"></i><span>加载中...</span></div>
+    </div>
+  </section>
+  <footer>
+    <ul>
+      <li><i class="yo-ico">&#xe61b;</i></li>
+      <li><i class="yo-ico">&#xe738;</i></li>
+      <li><span>加入购物车</span></li>
+    </ul>
+  </footer>
+</div>

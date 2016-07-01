@@ -1,0 +1,24 @@
+<div class="m-my">
+  <header>
+    <ul>
+      <li action-type="back.tab"><i class="yo-ico">&#xe60c;</i></li>
+      <li>我的</li>
+   </ul>
+  </header>
+  <section spa-widget = "scroll">
+    <div>
+      <div class="back">
+        <i class="yo-ico">&#xe629;</i>
+      </div>
+      <ul>
+        <li action-type="tap.info"><i class="yo-ico" style="color:#a6a600;">&#xe601;</i><span>个人信息</span><i class="yo-ico">&#xe63a;</i></li>
+        <li><i class="yo-ico" style="color:#00c662;">&#xe661;</i><span>我的订单</span><i class="yo-ico">&#xe63a;</i></li>
+        <li><i class="yo-ico" style="color:#ffad5b;">&#xe620;</i><span>我的土地</span><i class="yo-ico">&#xe63a;</i></li>
+        <li><i class="yo-ico" style="color:#5badff;">&#xe68d;</i><span>我的消息</span><i class="yo-ico">&#xe63a;</i></li>
+        <li><i class="yo-ico" style="color:#43ba7e;">&#xe604;</i><span>我的优惠券</span><i class="yo-ico">&#xe63a;</i></li>
+        <li><i class="yo-ico" style="color:#fd5100;">&#xe64f;</i><span>检查新版本</span><i class="yo-ico"></i></li>
+        <li><i class="yo-ico" style="color:#808080;">&#xe745;</i><span>我的预测</span><i class="yo-ico"></i></li>
+      </ul>
+    </div>
+  </section>
+</div>

@@ -1,0 +1,96 @@
+<div class="m-classify">
+  <header>
+    <ul>
+      <li action-type="back.tabs"><i class="yo-ico">&#xe60c;</i></li>
+      <li>
+        <div class="txt-box">
+          <input type="text" name="txt" id="txt" placeholder="请输入要找的农资产品" />
+          <i class="yo-ico">&#xe600;</i>
+        </div>
+      </li>
+      <li ><i class="yo-ico">&#xe60f;</i></li>
+   </ul>
+  </header>
+  <section>
+    <aside>
+       <ul class="classify">
+         <li class="active" action-type = "switch.tabs">肥料</li>
+         <li action-type = "switch.tabs">种子</li>
+         <li action-type = "switch.tabs">农药</li>
+         <li action-type = "switch.tabs">农机</li>
+       </ul>
+    </aside>
+    <div class="kind">
+      <div class="swiper-container" id="classify-swiper">
+         <div class="swiper-wrapper">
+             <div class="swiper-slide">
+               <div class="fertilizer">
+                 <ul>
+                   <li>水溶肥</li>
+                   <li>复合肥</li>
+                 </ul>
+                 <ul>
+                   <li>掺混肥</li>
+                   <li>缓释肥</li>
+                 </ul>
+                 <ul>
+                   <li>控释肥</li>
+                   <li>二胺</li>
+                 </ul>
+                 <ul>
+                   <li>尿素</li>
+                 </ul>
+               </div>
+             </div>
+             <div class="swiper-slide">
+               <div class="fertilizer">
+                 <ul>
+                   <li>水溶肥</li>
+                   <li>复合肥</li>
+                 </ul>
+                 <ul>
+                   <li>掺混肥</li>
+                   <li>缓释肥</li>
+                 </ul>
+                 <ul>
+                   <li>控释肥</li>
+                   <li>二胺</li>
+                 </ul>
+               </div>
+             </div>
+             <div class="swiper-slide">
+              <div class="fertilizer">
+                <ul>
+                  <li>水溶肥</li>
+                  <li>复合肥</li>
+                </ul>
+                <ul>
+                  <li>掺混肥</li>
+                  <li>缓释肥</li>
+                </ul>
+              </div>
+             </div>
+             <div class="swiper-slide">
+              <div class="fertilizer">
+                <ul>
+                  <li>水溶肥</li>
+                  <li>复合肥</li>
+                </ul>
+                <ul>
+                  <li>掺混肥</li>
+                  <li>缓释肥</li>
+                </ul>
+                <ul>
+                  <li>控释肥</li>
+                  <li>二胺</li>
+                </ul>
+                <ul>
+                  <li>尿素</li>
+                </ul>
+              </div>
+             </div>
+           </div>
+        </div>
+    </div>
+  </section>
+</div>

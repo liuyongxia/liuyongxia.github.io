@@ -1,0 +1,18 @@
+<div class="m-search">
+  <header>
+    <ul>
+      <li action-type="back.tab"><i class="yo-ico">&#xe60c;</i></li>
+      <li>发现</li>
+   </ul>
+  </header>
+  <section>
+    <ul>
+      <li><i class="yo-ico" style="color:#737373;">&#xe601;</i><span>最新农业资讯</span><i class="yo-ico">&#xe63a;</i></li>
+      <li><i class="yo-ico" style="color:#00c662;">&#xe648;</i><span>历史产量排行</span><i class="yo-ico">&#xe63a;</i></li>
+      <li><i class="yo-ico" style="color:#ffad5b;">&#xe633;</i><span>历史收益排行</span><i class="yo-ico">&#xe63a;</i></li>
+      <li><i class="yo-ico" style="color:#5badff;">&#xe664;</i><span>收益预测走势</span><i class="yo-ico">&#xe63a;</i></li>
+      <li><i class="yo-ico" style="color:#43ba7e;">&#xe61c;</i><span>土地分布统计</span><i class="yo-ico">&#xe63a;</i></li>
+      <li><i class="yo-ico" style="color:#fd5100;">&#xe745;</i><span>作物生产指导</span><i class="yo-ico">&#xe63a;</i></li>
+    </ul>
+  </section>
+</div>

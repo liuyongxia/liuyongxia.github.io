@@ -1,0 +1,107 @@
+.m-index{
+    .l-container{
+        .m-classify{
+            @include flexbox();
+            @include flex-direction(column);
+            height: 100%;
+            > * {
+                width: 100%;
+            }
+            header{
+                background:#45b97c;
+                height: .44rem;
+                ul {
+                    @include flexbox();
+                    height: 100%;
+                    li {
+                        height: 100%;
+                        &:not(:nth-child(2)) {
+                          @include flexbox();//定义为盒
+                          @include justify-content(center);//水平方向
+                          @include align-items(center);//垂直方向
+                          width: .44rem;
+                          color: #fff;
+                          font-size:.3rem;
+                        }
+                        &:nth-child(2) {
+                          width: 100%;
+                          @include flex(1);
+                          @include flexbox();   //定义为盒
+                          @include justify-content(center);
+                          @include align-items(center);
+                          .txt-box{
+                            height:.3rem;
+                            width: 100%;
+                            background:#fff;
+                            border-radius:.05rem;
+                            overflow: hidden;
+                            input{
+                              border:0;
+                              width: 80%;
+                              height:.3rem;
+                              line-height:.3rem;
+                              padding-left: .1rem;
+                              font-size: .12rem;
+                            }
+                            i{
+                              font-size:.2rem;
+                              color: #828282;
+                            }
+                          }
+                        }
+                    }
+                }
+            }
+            section{
+              height: 100%;
+              background: #fff;
+              @include flexbox();   //定义为盒
+              @include flex-direction();
+              aside{
+                background: #f2f3f5;
+                height: 100%;
+                width: 30%;
+                ul{
+                  height: 100%;
+                  li{
+                    height: 10%;
+                    text-align: center;
+                    @include flexbox();
+                    @include align-items(center);
+                    @include justify-content(center);
+                    border-bottom: .01rem solid #e4e4e4;
+                    &.active{
+                      background-color: #fff;
+                    }
+                  }
+                }
+              }
+              .kind{
+                width: 70%;
+                .fertilizer{
+                  height: 100%;
+                  width: 100%;
+                  ul{
+                    height: 8%;
+                    width: 100%;
+                    margin-top: 5%;
+                    @include flexbox();   //定义为盒
+                    // @include justify-content(center);
+                    // @include align-items(center);
+                    li{
+                      height: 100%;
+                      width: 43%;
+                      background-color:#f2f3f5;
+                      border: 1px solid #e4e4e4;
+                      line-height: .32rem;
+                      text-align: center;
+                      border-radius: .05rem;
+                      margin-left: 5%;
+                    }
+                  }
+                }
+              }
+            }
+        }
+    }
+}

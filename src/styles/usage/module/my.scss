@@ -1,0 +1,81 @@
+.m-my{
+  @include flexbox();
+  @include flex-direction(column);
+  height: 100%;
+  > * {
+    width: 100%;
+  }
+  header{
+    background:#45b97c;
+    height: .44rem;
+    ul {
+      @include flexbox();
+      height: 100%;
+      li {
+        height: 100%;
+        width: 100%;
+        @include flexbox();//定义为盒
+        @include justify-content(center);//水平方向
+        @include align-items(center);//垂直方向
+        color: #fff;
+        &:nth-child(1) {
+          width: .44rem;
+          color: #fff;
+          font-size:.3rem;
+        }
+        &:nth-child(2){
+          @include flex(1);
+          font-size: .14rem;
+        }
+      }
+    }
+  }
+  section{
+    height: 100%;
+    width: 100%;
+    .back{
+      height: 2rem;
+      width: 100%;
+      background: url(/project/images/my.jpg) no-repeat center center;
+      i{
+        width: 100%;
+        font-size: 1.5rem;
+        line-height: 2rem;
+        @include flexbox();
+        @include justify-content(center);
+        color: #fff;
+      }
+    }
+    ul{
+      height: 100%;
+      li{
+        width: 100%;
+        height: .44rem;
+        background: #fff;
+        border-top:.01rem solid #ccc;
+        border-bottom:.01rem solid #ccc;
+        margin-top: .1rem;
+        @include flexbox();
+        i{
+          @include flexbox();
+          @include justify-content(center);
+          @include align-items(center);
+          height: 100%;
+          width: .44rem;
+          font-size: .25rem;
+          color: #979797;
+          border-radius:50%;
+        }
+        span{
+          @include flex(1);
+          font-size: .14rem;
+          height: .44rem;
+          line-height: .44rem;
+        }
+        &:nth-last-child(1){
+          margin-bottom: .2rem;
+        }
+      }
+    }
+  }
+}

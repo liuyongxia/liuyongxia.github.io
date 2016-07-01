@@ -1,0 +1,12 @@
+<div class="m-index">
+  <div class="l-container"></div>
+  <footer>
+    <ul>
+      <li class="active" action-type = "switch.tabs" data-tag ="home"><i class="yo-ico">&#xe605;</i><b>首页</b></li>
+      <li action-type = "switch.tabs" data-tag ="classify"><i class="yo-ico" >&#xe66d;</i><b>分类</b></li>
+      <li action-type = "switch.tabs" data-tag ="search"><i class="yo-ico">&#xe60e;</i><b>发现</b></li>
+      <li action-type = "switch.tabs" data-tag ="shoppingCart"><i class="yo-ico">&#xe62e;</i><b>购物车</b></li>
+      <li action-type = "switch.tabs" data-tag ="my"><i class="yo-ico">&#xe661;</i><b>我的</b></li>
+    </ul>
+  </footer>
+</div>
