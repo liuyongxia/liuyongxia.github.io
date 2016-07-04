@@ -65,8 +65,8 @@ SPA.defineView("home",{
             //第一组
            //ajax调用数据1
             $.ajax({
-              url:'/project/mock/livelist.json',  //一般2json
-              // url:'/api/getLivelist.php',   //形如2 //最后
+              // url:'/project/mock/livelist.json',  //一般2json
+              url:'/api/getLivelist.php',   //形如2 //最后
               type:'get',
               data: {              //data往后端穿的参数
                 rtype:'origin'
@@ -88,8 +88,8 @@ SPA.defineView("home",{
 
            //第二组
            $.ajax({
-             url:'/project/mock/machinery.json',
-            //  url:'/api/getLivelist.php',
+            //  url:'/project/mock/machinery.json',
+             url:'/api/getLivelist.php',
              type:'get',
              data:{
                rtype:'machinery-origin'
@@ -174,8 +174,8 @@ SPA.defineView("home",{
 
                   // ajax下拉刷新数据
                   $.ajax({
-                    url:'/project/mock/livelist.json',
-                    // url: '/api/getLivelist.php',
+                    // url:'/project/mock/livelist.json',
+                    url: '/api/getLivelist.php',
                     data: {
                       rtype: 'refresh'
                     },
@@ -201,8 +201,8 @@ SPA.defineView("home",{
 
                   // ajax上拉加载数据
                   $.ajax({
-                    url:'/project/mock/livelist.json',
-                    // url: '/api/getLivelist.php',
+                    // url:'/project/mock/livelist.json',
+                    url: '/api/getLivelist.php',
                     data: {
                       rtype: 'more'
                     },
