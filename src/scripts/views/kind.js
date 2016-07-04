@@ -57,8 +57,8 @@ init:{
 
       //调用Ajax第二组
       $.ajax({
-        url:'/project/mock/machinery.json',
-        // url:'/api/getLivelist.php',
+        // url:'/project/mock/machinery.json',
+        url:'/api/getLivelist.php',
         type:'get',
         data:{
           rtype:'machinery-origin'
