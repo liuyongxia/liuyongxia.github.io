@@ -5,45 +5,39 @@
   "data":[
     {
       "id":1,
-      "title1":"史丹利缓释肥28-12-10",
-      "title2":"史丹利缓释肥28-12-10",
-      "imgsrc":"/project/images/pic1.jpg",
-      "price":"￥ 125.00 元/袋"
+      "title1":"史丹利缓释肥26-12-10",
+      "title2":"史丹利缓释肥26-12-10",
+      "imgsrc":"/project/images/pic1.jpg"
     },
     {
       "id":2,
-      "title1":"史丹利缓释肥26-12-10",
-      "title2":"史丹利缓释肥26-12-10",
-      "imgsrc":"/project/images/pic2.jpg",
-      "price":"￥ 125.00 元/袋"
+      "title1":"中化化肥复合肥17-17-11",
+      "title2":"科学施肥 就选中化",
+      "imgsrc":"/project/images/pic2.jpg"
     },
     {
       "id":3,
       "title1":"中化长山牌尿素",
       "title2":"老品牌 值得信赖",
-      "imgsrc":"/project/images/pic3.jpg",
-      "price":"￥ 125.00 元/袋"
+      "imgsrc":"/project/images/pic3.jpg"
     },
     {
       "id":4,
       "title1":"中化化肥复合肥26-10-11",
       "title2":"科学施肥 就选中化",
-      "imgsrc":"/project/images/pic4.jpg",
-      "price":"￥ 125.00 元/袋"
+      "imgsrc":"/project/images/pic4.jpg"
     },
     {
       "id":5,
       "title1":"中化化肥复合肥17-17-11",
       "title2":"科学施肥 就选中化",
-      "imgsrc":"/project/images/pic5.jpg",
-      "price":"￥ 125.00 元/袋"
+      "imgsrc":"/project/images/pic5.jpg"
     },
     {
       "id":6,
       "title1":"洋丰复合肥26-10-12化肥",
       "title2":"一次施肥不追肥 保土保肥改良土壤",
-      "imgsrc":"/project/images/pic6.jpg",
-      "price":"￥ 125.00 元/袋"
+      "imgsrc":"/project/images/pic6.jpg"
     },
     {
       "id":7,

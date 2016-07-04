@@ -5,6 +5,10 @@ module.exports = {
       respondwith: './livelist.json'
     },
     {
+      pattern: /\/api\/getLivelist.php\?rtype=again-origin$/,
+      respondwith: './livelist2.json'
+    },
+    {
       pattern: /\/api\/getLivelist.php\?rtype=refresh$/,
       respondwith: './livelist.json'
     },
@@ -27,6 +31,10 @@ module.exports = {
     {
       pattern: /\/api\/getLiveDetail.php\?id=\d+$/,
       respondwith: './detail.json'
+    },
+    {
+      pattern: /\/api\/saveData.php$/,
+      respondwith: './save.json'
     }
   ]
 };
